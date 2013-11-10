@@ -36,4 +36,3 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 
 # inherit from the proprietary version
 -include vendor/samsung/kona/BoardConfigVendor.mk
-

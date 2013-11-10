@@ -36,8 +36,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsecril-client \
     tiny_hw \
-    SamsungServiceMode \
-    VoicePlus
+    SamsungServiceMode
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.xml:system/etc/gps.xml \
@@ -58,6 +57,11 @@ PRODUCT_PACKAGES += \
 # IRDA
 PRODUCT_PACKAGES += \
     irda.exynos4
+
+# Misc Packages
+PRODUCT_PACKAGES += \
+    DeviceSettings \
+    Torch
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc
